@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+}
+nav ul li{
+    list-style: none;
+    margin: 18px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+
+   
+
+}
+nav ul a{
+  text-decoration: none;  
+
+}
+nav{
+    border-bottom: 1px  solid rgb(251, 0, 134);
+}
+nav ul li:hover{
+ border-bottom: 2px solid rgb(251, 0, 134);
+ cursor: pointer;
+ color:  rgb(251, 0, 134);
+
+}
+/* home page design */
+.firstSection{
+    height: 91.5vh;
+    margin-top: 5px;
+    /* overflow: hidden; */
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* width: 80%; */
+    /* padding:  20px 40px; */
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+   
+
+    
+
+}
+
+.firstHalf{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.secondHalf{
+    width: 30%;
+
+    
+}
+.secondHalf img{
+    width: 70%;
+    
+    border:  4px  solid rgb(251, 0, 134) ;
+    border-radius: 300px;
+    display: block;
+    margin: auto;
+   
+}
+.text-big{
+font-size: 40px;
+}
+.text-small{
+font-size: 18px;
+}
+.btn{
+    padding: 8px 20px;
+    margin: 7px 3pxsss;
+    border:  2px  solid rgb(251, 0, 134) ;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    color: white;
+    cursor: pointer;
+
+
+}
+.btn:hover{
+    padding: 9px 21px;   
+   }
+.background{
+    background:rgba(0,0,0,0.7) url('../img/bg2.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+
+/* contact page design */
+.contact{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url(/img/images.jfif); */
+            /* background-repeat: no-repeat; */
+            /* background-size:cover; */
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    border:  2px  solid rgb(251, 0, 134) ;
+    height: 90%;
+   
+     background: linear-gradient(to left,#fce4ec,white);
+     border-radius: 23px;
+     box-shadow: rgba(0, 0, 0, 0.50) 5px 15px 15px;
+     
+    
+}
+input{
+    padding: 8px 10px;
+    font-size: 18px;  
+    margin: 10px;
+    outline: none;
+    width: 80%;
+    border: 1px  solid rgb(251, 0, 134);
+    border-radius: 15px;
+   
+    
+
+}
+.contact h1{
+    margin-bottom: 34px;
+}
+textarea{
+    padding: 8px 10px;
+    font-size: 18px;  
+    margin: 10px;
+    outline: none;
+    width: 80%;
+    border: 1px  solid rgb(251, 0, 134);
+    border-radius: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+#contactbtn{
+    border: 2px solid rgb(251, 0, 134);
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 12px;
+    font-weight: bolder;
+
+
+}
+#contactbtn:hover{
+  background: linear-gradient(to right,pink,white);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+
+}
+
+/* information.html design */
+
+
+.section{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px;
+
+}
+.secLeft{
+    
+    flex-direction: row-reverse;
+
+}
+.paras{
+    padding:0 65px;
+}
+.sectionTag{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 16px 0;
+}
+.thumbnail img{
+    width: 300px;
+    border-radius: 26px;
+    border: 2px solid rgb(251, 0, 134);
+    margin-top: 20px;
+    transition: transform .5s ease;
+}
+.thumbnail img:hover{
+    /* padding: 15px 8px 0px 8px ; */
+    transform: scale(1.1);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+   
+    
+}
+/* guide page desgin */
+.headline{
+    height: 50%;
+    width: 80%;
+    display: flex;
+    
+    background: linear-gradient(to right, pink,white, pink);
+    margin: 23px auto;
+    padding: 15px;
+    font-family: 'Biryani', sans-serif;
+    border-radius: 9px;
+    border: 1px solid rgb(247, 69, 164);
+    }
+    
+    
+    #img{
+        width: 40%;
+        margin: 23px;
+        border-radius: 23px;
+        
+    }
+    .headline:hover{
+        /* padding: 15px 8px 0px 8px ; */
+        /* transform: scale(1.1); */
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+       
+        
+    }
+    
+    
+
+
+/* footer design */
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+   background-color: palevioletred;
+   font-family: 'Biryani', sans-serif;
+   font-size: 1.1em;
+   text-align: center;
+   color: #fce4ec;
+    
+
+}
